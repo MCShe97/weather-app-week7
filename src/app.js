@@ -72,13 +72,13 @@ function displayCelciusTemperature(event) {
 
 let celciusTemperature = null;
 
-let form = document.querySelector("search-form");
+let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-let fahrenheitLink = document.querySelector("fahrenheit-link");
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let celciusLink = document.querySelector("celcius-link");
+let celciusLink = document.querySelector("#celcius-link");
 celciusLink.addEventListener("click", displayCelciusTemperature);
 
 search("New York");
