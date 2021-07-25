@@ -19,24 +19,6 @@ function displayForcast() {
     let forecastElement = document.querySelector("#forecast");
 
     let forecastHTML = `<div class="row">`;
-    forecastHTML = 
-     forecastHTML + 
-     ` 
-        <div class="col-2">
-            <div class="weather-forcast-date">
-                Thu
-            </div>
-            <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="" width="60" />
-            <div class="weather-forcast-temperatures">
-                <span class="weather-forcast-temperature-max">
-                    18°
-                </span>
-                <span class="weather-forcast-temperatures-min">
-                    12°
-                </span>
-            </div>
-        </div>
-    `;
 
       forecastHTML = 
      forecastHTML + 
@@ -57,7 +39,7 @@ function displayForcast() {
         </div>
     `;
 
-    forecastHTML = forecastHTML + `</div>`
+    forecastHTML = forecastHTML + `</div>`;
     forecastElement.innerHTML = forecastHTML;
 }
 
