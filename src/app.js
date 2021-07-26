@@ -24,9 +24,7 @@ function displayForcast(response) {
      forecastHTML = forecastHTML + 
      ` 
         <div class="col-2">
-            <div class="weather-forcast-date">
-                ${day}
-            </div>
+            <div class="weather-forcast-date">${day}</div>
             <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="" width="60" />
             <div class="weather-forcast-temperatures">
                 <span class="weather-forcast-temperature-max">
