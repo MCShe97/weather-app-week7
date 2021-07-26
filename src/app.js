@@ -34,7 +34,6 @@ function displayForcast(response) {
      ` 
         <div class="col-2">
             <div class="weather-forcast-date">${formatDay(forecastDay.dt)}</div>
-            ${index}
             <img src="https://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="" width="60" />
             <div class="weather-forcast-temperatures">
                 <span class="weather-forcast-temperature-max"> 
